@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Calendar Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: one reading column, the app's navy-and-gold header band, two policies with anchor links (#privacy, #terms) */
+:root {
+  --bg: #F6F8FA; --fg: #1A2733; --muted: #586878; --rule: #D5DDE5;
+  --band: #24445F; --band-fg: #FFFFFF; --accent: #B88700; --gold: #F2B705;
+  --display: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111B24; --fg: #E4EAF0; --muted: #9AABBB; --rule: #2A3A49;
+  --band: #1B3247; --band-fg: #FFFFFF; --accent: #F2B705; --gold: #F2B705; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111B24; --fg: #E4EAF0; --muted: #9AABBB; --rule: #2A3A49;
+  --band: #1B3247; --band-fg: #FFFFFF; --accent: #F2B705; --gold: #F2B705; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 1.05rem; line-height: 1.6; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { background: var(--band); color: var(--band-fg); border-bottom: 6px solid var(--gold); }
+header .wrap { padding-block: 2.2rem 1.8rem; display: grid; gap: .6rem; }
+.eyebrow { font-family: var(--display); text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; opacity: .8; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; line-height: 1.15; }
+h1 { font-size: clamp(2rem, 6vw, 2.8rem); margin: 0; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; font-family: var(--display); font-size: 1.05rem; }
+nav a { color: var(--band-fg); text-underline-offset: 4px; }
+main .wrap { padding-block: 1rem 3rem; }
+section { padding-block: 1.5rem; border-bottom: 1px solid var(--rule); }
+section:last-child { border-bottom: 0; }
+h2 { font-size: 1.9rem; margin: .5rem 0 .2rem; }
+h3 { font-size: 1.25rem; margin: 1.6rem 0 .3rem; }
+.updated { color: var(--muted); font-size: .95rem; margin: 0 0 1rem; }
+p, li { max-width: 65ch; }
+ul { padding-left: 1.2rem; display: grid; gap: .35rem; }
+.table { overflow-x: auto; margin: .8rem 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bottom: 1px solid var(--rule); }
+th { font-family: var(--display); font-weight: 600; letter-spacing: .03em; color: var(--muted); }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+code { font-size: .9em; user-select: all; }
+</style>
+<style>body{margin:0} section{border-bottom:0}</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Roku channel</div>
+    <h1>Family Calendar</h1>
+    <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+  </div>
+</header>
+<main><div class="wrap">
+<section id="privacy">
+  <h2>Privacy Policy</h2>
+  <p class="updated">Last updated October 17, 2026</p>
+
+  <p>Family Calendar is a Roku channel that shows your calendars, local weather, local news and photos of your town on your TV. This policy explains what information the channel uses and where it goes.</p>
+
+  <h3>The short version</h3>
+  <ul>
+    <li>There are no accounts, sign-ins, ads or analytics.</li>
+    <li>Your settings are saved only on your Roku device. The developer never receives them.</li>
+    <li>To show weather, news and photos, the channel asks a few public services for information about the place you chose.</li>
+  </ul>
+
+  <h3>What is stored on your Roku</h3>
+  <p>During setup you choose a location (a city, ZIP code or postal code), paste calendar links, and pick news topics and a colour theme. These are saved in your Roku device's own storage, along with a short list of town photos and copies of those photos. Nothing is sent to the developer. You can change or remove these settings any time from the channel's setup screen (press <strong>*</strong> on the remote). Removing the channel from your Roku deletes them.</p>
+
+  <h3>Services the channel contacts</h3>
+  <p>The channel connects directly from your Roku to the services below. Each one receives your device's IP address as part of any internet request, plus only the details listed.</p>
+  <div class="table"><table>
+    <thead><tr><th>Service</th><th>Used for</th><th>What it receives</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a></td><td>Weather, and finding your town during setup</td><td>Your location's coordinates; the place name or ZIP code you type</td></tr>
+      <tr><td><a href="https://www.zippopotam.us/" rel="noopener">Zippopotam.us</a></td><td>Finding your town from a Canadian postal code</td><td>The first three characters of the postal code</td></tr>
+      <tr><td><a href="https://policies.google.com/privacy" rel="noopener">Google News</a></td><td>Local and topic headlines</td><td>Your town, province or state, country and chosen topics</td></tr>
+      <tr><td><a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" rel="noopener">Wikipedia and Wikimedia Commons</a></td><td>Photos of places near you, about once a week</td><td>Your location's coordinates</td></tr>
+      <tr><td>Your calendar provider (for example Google, Apple or Microsoft)</td><td>Your events</td><td>A request for the calendar link you added</td></tr>
+      <tr><td><a href="https://policies.google.com/privacy" rel="noopener">Google Calendar</a></td><td>Public holidays for your country</td><td>A request for that country's public holiday calendar</td></tr>
+    </tbody>
+  </table></div>
+  <p>Each service handles what it receives under its own privacy policy. Calendar links usually contain a private key. Anyone with the link can read that calendar, so the channel keeps it only on your device and shows only a shortened name on screen.</p>
+
+  <h3>Roku</h3>
+  <p>Roku, Inc. collects information about how its devices and channels are used under its own <a href="https://docs.roku.com/published/userprivacypolicy/en/us" rel="noopener">privacy policy</a>. The developer of Family Calendar does not receive that information.</p>
+
+  <h3>Children</h3>
+  <p>The channel is meant for households and is not directed at children under 13. It does not knowingly collect personal information from anyone.</p>
+
+  <h3>Changes</h3>
+  <p>If this policy changes, the new version will be posted here with a new date.</p>
+
+  <h3>Contact</h3>
+  <p>Questions about privacy: <code>chriscodesthings@gmail.com</code></p>
+</section>
+</div></main>
+</body>
+</html>
